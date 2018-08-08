@@ -19,7 +19,7 @@ This project uses [JpaRepository](http://docs.spring.io/spring-data/jpa/docs/1.3
 ## Run in Localhost
 To Run this project in your localhost, make sure you have Java and MySQL installed.
 ###MySQL
-You can download MySQL [here](http://dev.mysql.com/downloads/). Take a look at ```application.properties```, and you'll see ```spring.datasource.url =jdbc:mysql://localhost/chatbot```. This means the project will migrate the database to your local database named **pariwisata_bot**.
+You can download MySQL [here](http://dev.mysql.com/downloads/). Take a look at ```application.properties```, and you'll see ```spring.datasource.url =jdbc:mysql://localhost/chatbot```. This means the project will migrate the database to your local database named **chatbot**.
 
 First, start your MySQL and create your database by opening ```http://localhost/phpmyadmin``` in your browser. Select ```Databases``` then create a database named **chatbot**.Import the database from this source with name "chatbot.sql".After that Run the program, it'll automatically migrate the databases created in project to your localhost. 
 
